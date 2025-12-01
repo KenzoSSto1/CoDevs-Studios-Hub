@@ -72,7 +72,7 @@ function isNotLocked(v)
 end
 
 do	
-	HOHO_Passcheck = Instance.new("ScreenGui")
+	CODEVS_Passcheck = Instance.new("ScreenGui")
 	INTRO = Instance.new("CanvasGroup")
 	Wallpaper = Instance.new("ImageLabel")
 	TextHolder = Instance.new("Frame")
@@ -131,13 +131,13 @@ do
 	Gradient_Frame = Instance.new("Frame")
 	UIGradient_4 = Instance.new("UIGradient")
 
-	HOHO_Passcheck.IgnoreGuiInset = true
-	HOHO_Passcheck.ResetOnSpawn = false
-	HOHO_Passcheck.Name = "Hоhо_раssсhесk"
-	HOHO_Passcheck.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
-	HOHO_Passcheck.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-    CoreGuiAdd(HOHO_Passcheck)
-	HOHO_Passcheck.Enabled = true
+	CODEVS_Passcheck.IgnoreGuiInset = true
+	CODEVS_Passcheck.ResetOnSpawn = false
+	CODEVS_Passcheck.Name = "Hоhо_раssсhесk"
+	CODEVS_Passcheck.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
+	CODEVS_Passcheck.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    CoreGuiAdd(CODEVS_Passcheck)
+	CODEVS_Passcheck.Enabled = true
 
 	INTRO.BorderSizePixel = 0
 	INTRO.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -147,7 +147,7 @@ do
 	INTRO.Name = "INTRO"
 	INTRO.Position = UDim2.new(0.5, 0, 0.5, 0)
 	INTRO.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	INTRO.Parent = HOHO_Passcheck
+	INTRO.Parent = CODEVS_Passcheck
 
 	Hover.ImageColor3 = Color3.fromRGB(255, 51, 51)
 	Hover.BorderSizePixel = 0
@@ -158,7 +158,7 @@ do
 	Hover.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Hover.Name = "Hover"
 	Hover.AnchorPoint = Vector2.new(0.5, 0.5)
-	Hover.Image = "rbxassetid://16261022724"
+	Hover.Image = "rbxassetid://78340125427891"
 	Hover.Size = UDim2.new(1.055, 0, 1.45, 0)
 	Hover.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Hover.BackgroundTransparency = 1
@@ -172,7 +172,7 @@ do
 	Wallpaper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Wallpaper.Position = UDim2.new(-0.0361702, 0, -0.158876, 0)
 	Wallpaper.Name = "Wallpaper"
-	Wallpaper.Image = "rbxassetid://16073585738"
+	Wallpaper.Image = "rbxassetid://98931197354720"
 	Wallpaper.Size = UDim2.new(1.11064, 0, 1.59989, 0)
 	Wallpaper.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Wallpaper.Parent = INTRO
@@ -224,7 +224,7 @@ do
 	Pattern.ImageTransparency = 0.6
 	Pattern.Position = UDim2.new(6.64996e-05, 0, 0.00124399, 0)
 	Pattern.Name = "Pattern"
-	Pattern.Image = "rbxassetid://2151741365"
+	Pattern.Image = "rbxassetid://78340125427891"
 	Pattern.TileSize = UDim2.new(0, 250, 0, 250)
 	Pattern.Size = UDim2.new(1, 0, 1, 0)
 	Pattern.ZIndex = 0
@@ -238,7 +238,7 @@ do
 	Logo.ImageTransparency = 0.5
 	Logo.Position = UDim2.new(0.271609, 0, 0.122057, 0)
 	Logo.Name = "Logo"
-	Logo.Image = "rbxassetid://16073594682"
+	Logo.Image = "rbxassetid://78340125427891"
 	Logo.Size = UDim2.new(0.453191, 0, 0.550704, 0)
 	Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Logo.ZIndex = 2
@@ -251,7 +251,7 @@ do
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Name = "Main"
 	Main.AnchorPoint = Vector2.new(0.5, 0.5)
-	Main.Image = "rbxassetid://16073594682"
+	Main.Image = "rbxassetid://78340125427891"
 	Main.Size = UDim2.new(0.95, 0, 0.95, 0)
 	Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Main.BackgroundTransparency = 1
@@ -284,7 +284,7 @@ do
 	ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	ImageLabel.Position = UDim2.new(1, 0, .5, 0)
 	ImageLabel.AnchorPoint = Vector2.new(.5,.5)
-	ImageLabel.Image = "rbxassetid://16073652319"
+	ImageLabel.Image = "rbxassetid://78340125427891"
 	ImageLabel.Size = UDim2.new(0.671884, 0, 15.1201, 0)
 	ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	ImageLabel.BackgroundTransparency = 1
@@ -315,7 +315,7 @@ do
 	Logo_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Logo_1.Position = UDim2.new(0.256362, 0, 0.0700547, 0)
 	Logo_1.Name = "Logo"
-	Logo_1.Image = "rbxassetid://16073594682"
+	Logo_1.Image = "rbxassetid://78340125427891"
 	Logo_1.Size = UDim2.new(0.481145, 0, 0.133585, 0)
 	Logo_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Logo_1.ZIndex = 2
@@ -423,7 +423,7 @@ do
 	Pfp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Pfp.Position = UDim2.new(0.0810142, 0, 0.652851, 0)
 	Pfp.Name = "Pfp"
-	Pfp.Image = "rbxassetid://16165550572"
+	Pfp.Image = "rbxassetid://78340125427891"
 	Pfp.Size = UDim2.new(0.229672, 0, 0.261163, 0)
 	Pfp.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Pfp.ZIndex = 2
@@ -630,7 +630,7 @@ do
 	Pattern_1.ImageTransparency = 0.6
 	Pattern_1.Position = UDim2.new(6.64996e-05, 0, 0.00124399, 0)
 	Pattern_1.Name = "Pattern"
-	Pattern_1.Image = "rbxassetid://2151741365"
+	Pattern_1.Image = "rbxassetid://78340125427891"
 	Pattern_1.TileSize = UDim2.new(0, 250, 0, 250)
 	Pattern_1.Size = UDim2.new(1, 0, 1, 0)
 	Pattern_1.ZIndex = 0
@@ -654,18 +654,18 @@ do
 	UICorner_9.CornerRadius = UDim.new(0, 10)
 	UICorner_9.Parent = Gradient_Frame
 
-	HOHO_Gen4 = Instance.new("ScreenGui")
+	CODEVS_Gen4 = Instance.new("ScreenGui")
 	NOTIFICATION_ZONE = Instance.new("Frame")
 	UIListLayout_Main = Instance.new("UIListLayout")
 	UIAspectRatioConstraint_Main = Instance.new("UIAspectRatioConstraint")
 
-	HOHO_Gen4.IgnoreGuiInset = true
-	HOHO_Gen4.Enabled = true
-	HOHO_Gen4.ResetOnSpawn = false
-	HOHO_Gen4.Name = "Hоhо_gеn4"
-	HOHO_Gen4.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
-	HOHO_Gen4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-    CoreGuiAdd(HOHO_Gen4)
+	CODEVS_Gen4.IgnoreGuiInset = true
+	CODEVS_Gen4.Enabled = true
+	CODEVS_Gen4.ResetOnSpawn = false
+	CODEVS_Gen4.Name = "CoDevs Studios_Gen4"
+	CODEVS_Gen4.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
+	CODEVS_Gen4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    CoreGuiAdd(CODEVS_Gen4)
 
 	NOTIFICATION_ZONE.BorderSizePixel = 0
 	NOTIFICATION_ZONE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -676,7 +676,7 @@ do
 	NOTIFICATION_ZONE.BackgroundTransparency = 1
 	NOTIFICATION_ZONE.Name = "NOTIFICATION_ZONE"
 	NOTIFICATION_ZONE.Position = UDim2.new(1, 0, 1, 0)
-	NOTIFICATION_ZONE.Parent = HOHO_Gen4
+	NOTIFICATION_ZONE.Parent = CODEVS_Gen4
 
 	UIListLayout_Main.HorizontalAlignment = Enum.HorizontalAlignment.Center
 	UIListLayout_Main.VerticalAlignment = Enum.VerticalAlignment.Bottom
@@ -736,8 +736,8 @@ do
 		end
 	end
 
-    if (isfile("HoHo_Intro.txt") and (tick() - tonumber(readfile("HoHo_Intro.txt"))) >= 86400) or not isfile("HoHo_Intro.txt") then
-        writefile("HoHo_Intro.txt", tostring(tick())) 
+    if (isfile("CoDevs_Intro.txt") and (tick() - tonumber(readfile("CoDevs_Intro.txt"))) >= 86400) or not isfile("CoDevs_Intro.txt") then
+        writefile("CoDevs_Intro.txt", tostring(tick())) 
         
         local preload_content = {}
         for i,v in pairs(HOHO_Passcheck:GetDescendants()) do
@@ -772,7 +772,7 @@ do
             },
             Body = HttpService:JSONEncode({
                 ['args'] = {
-                ['code'] = 'hohohub',
+                ['code'] = 'codevshub',
                 ['sex'] = '?species=Goblin&realm=Toril'
             },
             ['cmd'] = 'INVITE_BROWSER',
@@ -802,7 +802,7 @@ do
 		StarterGui:SetCore("SendNotification",{
 			Title = "Key System",
 			Text = "[".. status.code .. "] " .. status.message,
-			Icon = "rbxassetid://16276677105"
+			Icon = "rbxassetid://78340125427891"
 		})
 
 		if (status.code == "KEY_VALID") then			
@@ -815,13 +815,13 @@ do
 
 			delay(0.2, destroyUI)
 
-			-- Debris:AddItem(HOHO_Passcheck,.25)
-			-- Debris:AddItem(HOHO_Gen4,.25)
+			-- Debris:AddItem(CODEVS_Passcheck,.25)
+			-- Debris:AddItem(CODEVS_Gen4,.25)
 
-			writefile("HohoKeyV4.txt", key)
+			writefile("CoDevsKeyV4.txt", key)
 
 			if status.data.note == "Ad Reward" then
-				spawn(function()local a=Instance.new("ScreenGui")a.Name="GOATAD"a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;a.DisplayOrder=99999;local b=Instance.new("ImageLabel")b.Size=UDim2.new(0.1580756,0,0.3768844,0)b.BorderColor3=Color3.fromRGB(0,0,0)b.Position=UDim2.new(0.5009901,0,0.129397,0)b.BorderSizePixel=0;b.BackgroundColor3=Color3.fromRGB(255,255,255)b.Image="rbxassetid://115402493"b.Parent=a;local c=Instance.new("ImageLabel")c.ZIndex=4;c.Size=UDim2.new(0.0687285,0,0.1243719,0)c.BorderColor3=Color3.fromRGB(0,0,0)c.BackgroundTransparency=1;c.Position=UDim2.new(0.4537658,0,0.0502513,0)c.BorderSizePixel=0;c.BackgroundColor3=Color3.fromRGB(255,255,255)c.Image="rbxassetid://106332978966253"c.Parent=a;local d=Instance.new("ImageLabel")d.Size=UDim2.new(0.1072165,0,0.1645729,0)d.BorderColor3=Color3.fromRGB(0,0,0)d.BackgroundTransparency=1;d.Position=UDim2.new(0.6050893,0,0.3555276,0)d.BorderSizePixel=0;d.BackgroundColor3=Color3.fromRGB(255,255,255)d.Image="rbxassetid://13295155606"d.Parent=a;local e=Instance.new("TextLabel")e.Size=UDim2.new(0.2226804,0,0.2512563,0)e.BorderColor3=Color3.fromRGB(0,0,0)e.BackgroundTransparency=0.6;e.Position=UDim2.new(0.4070528,0,0.1746231,0)e.BorderSizePixel=0;e.BackgroundColor3=Color3.fromRGB(0,0,0)e.FontSize=Enum.FontSize.Size14;e.TextStrokeTransparency=0.15;e.TextSize=14;e.TextColor3=Color3.fromRGB(255,255,255)e.Text="Tired of grabbing a new key every time? Upgrade to HoHo Hub Premium for just $5.5 lifetime \u{2013} skip ads, no waiting!"e.TextWrapped=true;e.TextWrap=true;e.Font=Enum.Font.Unknown;e.TextScaled=true;e.Parent=a;local f=Instance.new("UICorner")f.Parent=e;local g=Instance.new("TextButton")g.Size=UDim2.new(0.0845361,0,0.0628141,0)g.BorderColor3=Color3.fromRGB(0,0,0)g.Position=UDim2.new(0.4683869,0,0.4572864,0)g.BorderSizePixel=0;g.BackgroundColor3=Color3.fromRGB(85,255,0)g.FontSize=Enum.FontSize.Size14;g.TextStrokeTransparency=0;g.TextSize=14;g.TextColor3=Color3.fromRGB(255,255,255)g.Text="Take it!"g.TextWrapped=true;g.TextWrap=true;g.Font=Enum.Font.DenkOne;g.TextScaled=true;g.Parent=a;local h=Instance.new("ImageButton")h.Size=UDim2.new(0.0323024,0,0.0464824,0)h.BorderColor3=Color3.fromRGB(0,0,0)h.BackgroundTransparency=1;h.Position=UDim2.new(0.629228,0,0.0829145,0)h.BorderSizePixel=0;h.BackgroundColor3=Color3.fromRGB(255,255,255)h.Image="rbxassetid://385868188"h.Parent=a;local i=Instance.new("ImageLabel")i.ZIndex=4;i.Size=UDim2.new(0.0687285,0,0.1243719,0)i.BorderColor3=Color3.fromRGB(0,0,0)i.BackgroundTransparency=1;i.Position=UDim2.new(0.5527145,0,0.4095477,0)i.BorderSizePixel=0;i.BackgroundColor3=Color3.fromRGB(255,255,255)i.Image="rbxassetid://5128828029"i.Parent=a;local j=Instance.new("ImageLabel")j.ZIndex=4;j.Size=UDim2.new(0.1127148,0,0.1407035,0)j.BorderColor3=Color3.fromRGB(0,0,0)j.BackgroundTransparency=1;j.Position=UDim2.new(0.5177713,0,0.0427136,0)j.BorderSizePixel=0;j.BackgroundColor3=Color3.fromRGB(255,255,255)j.Image="rbxassetid://138393932323579"j.Parent=a;local k=Instance.new("TextLabel")k.Size=UDim2.new(0.1250859,0,0.0376884,0)k.BorderColor3=Color3.fromRGB(0,0,0)k.Rotation=90;k.BackgroundTransparency=1;k.Position=UDim2.new(0.6056783,0,0.2273869,0)k.BorderSizePixel=0;k.BackgroundColor3=Color3.fromRGB(255,255,255)k.FontSize=Enum.FontSize.Size14;k.TextStrokeTransparency=0.15;k.TextSize=14;k.TextColor3=Color3.fromRGB(255,255,255)k.Text="This ads will auto close after 30s."k.TextWrapped=true;k.TextWrap=true;k.Font=Enum.Font.SourceSans;k.TextScaled=true;k.Parent=a;a.Parent=game:GetService("CoreGui")h.MouseButton1Click:Connect(function()a:Destroy()end)g.MouseButton1Click:Connect(function()setclipboard('https://discord.com/invite/hohohub')game:GetService("StarterGui"):SetCore("SendNotification",{Title="Copied Discord Invite",Text="Join our server to buy script!",Icon="rbxassetid://16276677105"})end)game.Debris:AddItem(a,30)end)
+				spawn(function()local a=Instance.new("ScreenGui")a.Name="GOATAD"a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;a.DisplayOrder=99999;local b=Instance.new("ImageLabel")b.Size=UDim2.new(0.1580756,0,0.3768844,0)b.BorderColor3=Color3.fromRGB(0,0,0)b.Position=UDim2.new(0.5009901,0,0.129397,0)b.BorderSizePixel=0;b.BackgroundColor3=Color3.fromRGB(255,255,255)b.Image="rbxassetid://78340125427891"b.Parent=a;local c=Instance.new("ImageLabel")c.ZIndex=4;c.Size=UDim2.new(0.0687285,0,0.1243719,0)c.BorderColor3=Color3.fromRGB(0,0,0)c.BackgroundTransparency=1;c.Position=UDim2.new(0.4537658,0,0.0502513,0)c.BorderSizePixel=0;c.BackgroundColor3=Color3.fromRGB(255,255,255)c.Image="rbxassetid://78340125427891"c.Parent=a;local d=Instance.new("ImageLabel")d.Size=UDim2.new(0.1072165,0,0.1645729,0)d.BorderColor3=Color3.fromRGB(0,0,0)d.BackgroundTransparency=1;d.Position=UDim2.new(0.6050893,0,0.3555276,0)d.BorderSizePixel=0;d.BackgroundColor3=Color3.fromRGB(255,255,255)d.Image="rbxassetid://78340125427891"d.Parent=a;local e=Instance.new("TextLabel")e.Size=UDim2.new(0.2226804,0,0.2512563,0)e.BorderColor3=Color3.fromRGB(0,0,0)e.BackgroundTransparency=0.6;e.Position=UDim2.new(0.4070528,0,0.1746231,0)e.BorderSizePixel=0;e.BackgroundColor3=Color3.fromRGB(0,0,0)e.FontSize=Enum.FontSize.Size14;e.TextStrokeTransparency=0.15;e.TextSize=14;e.TextColor3=Color3.fromRGB(255,255,255)e.Text="Tired of grabbing a new key every time? Upgrade to CoDevs Studios Hub Premium for just $5.5 lifetime \u{2013} skip ads, no waiting!"e.TextWrapped=true;e.TextWrap=true;e.Font=Enum.Font.Unknown;e.TextScaled=true;e.Parent=a;local f=Instance.new("UICorner")f.Parent=e;local g=Instance.new("TextButton")g.Size=UDim2.new(0.0845361,0,0.0628141,0)g.BorderColor3=Color3.fromRGB(0,0,0)g.Position=UDim2.new(0.4683869,0,0.4572864,0)g.BorderSizePixel=0;g.BackgroundColor3=Color3.fromRGB(85,255,0)g.FontSize=Enum.FontSize.Size14;g.TextStrokeTransparency=0;g.TextSize=14;g.TextColor3=Color3.fromRGB(255,255,255)g.Text="Take it!"g.TextWrapped=true;g.TextWrap=true;g.Font=Enum.Font.DenkOne;g.TextScaled=true;g.Parent=a;local h=Instance.new("ImageButton")h.Size=UDim2.new(0.0323024,0,0.0464824,0)h.BorderColor3=Color3.fromRGB(0,0,0)h.BackgroundTransparency=1;h.Position=UDim2.new(0.629228,0,0.0829145,0)h.BorderSizePixel=0;h.BackgroundColor3=Color3.fromRGB(255,255,255)h.Image="rbxassetid://78340125427891"h.Parent=a;local i=Instance.new("ImageLabel")i.ZIndex=4;i.Size=UDim2.new(0.0687285,0,0.1243719,0)i.BorderColor3=Color3.fromRGB(0,0,0)i.BackgroundTransparency=1;i.Position=UDim2.new(0.5527145,0,0.4095477,0)i.BorderSizePixel=0;i.BackgroundColor3=Color3.fromRGB(255,255,255)i.Image="rbxassetid://78340125427891"i.Parent=a;local j=Instance.new("ImageLabel")j.ZIndex=4;j.Size=UDim2.new(0.1127148,0,0.1407035,0)j.BorderColor3=Color3.fromRGB(0,0,0)j.BackgroundTransparency=1;j.Position=UDim2.new(0.5177713,0,0.0427136,0)j.BorderSizePixel=0;j.BackgroundColor3=Color3.fromRGB(255,255,255)j.Image="rbxassetid://78340125427891"j.Parent=a;local k=Instance.new("TextLabel")k.Size=UDim2.new(0.1250859,0,0.0376884,0)k.BorderColor3=Color3.fromRGB(0,0,0)k.Rotation=90;k.BackgroundTransparency=1;k.Position=UDim2.new(0.6056783,0,0.2273869,0)k.BorderSizePixel=0;k.BackgroundColor3=Color3.fromRGB(255,255,255)k.FontSize=Enum.FontSize.Size14;k.TextStrokeTransparency=0.15;k.TextSize=14;k.TextColor3=Color3.fromRGB(255,255,255)k.Text="This ads will auto close after 30s."k.TextWrapped=true;k.TextWrap=true;k.Font=Enum.Font.SourceSans;k.TextScaled=true;k.Parent=a;a.Parent=game:GetService("CoreGui")h.MouseButton1Click:Connect(function()a:Destroy()end)g.MouseButton1Click:Connect(function()setclipboard('https://discord.com/invite/codevs-studios')game:GetService("StarterGui"):SetCore("SendNotification",{Title="Copied Discord Invite",Text="Join our server to buy script!",Icon="rbxassetid://78340125427891"})end)game.Debris:AddItem(a,30)end)
 			end
 
 			wait(.25)
@@ -858,7 +858,7 @@ do
 		StarterGui:SetCore("SendNotification",{
 			Title = "Key System",
 			Text = "Key Link 1 Copied!",
-			Icon = "rbxassetid://16276677105"
+			Icon = "rbxassetid://78340125427891"
 		})
 	end)
 
@@ -867,13 +867,13 @@ do
         StarterGui:SetCore("SendNotification",{
             Title = "Key System",
             Text = "Get Key Tutorial Copied!",
-            Icon = "rbxassetid://16276677105"
+            Icon = "rbxassetid://78340125427891"
         })
 	end)
 	
 	do
 		if isfile("HohoKeyV4.txt") or _G.MY_KEY_IS then
-			local key = _G.MY_KEY_IS and _G.MY_KEY_IS or readfile("HohoKeyV4.txt")
+			local key = _G.MY_KEY_IS and _G.MY_KEY_IS or readfile("CoDevsKeyV4.txt")
             Frame.Textbox.Text = key
 			do_check_key(key)
 		end
